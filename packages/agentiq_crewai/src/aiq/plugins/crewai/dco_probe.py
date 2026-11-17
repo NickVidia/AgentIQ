@@ -15,4 +15,5 @@
 
 
 def probe() -> str:
+    """Return a constant sentinel string used to verify the DCO probe."""
     return "ok"
